@@ -1,0 +1,21 @@
+{
+  "name": "unix-socket-regen",
+  "version": "0.1.0",
+  "description": "Remove existed unix socket file and fix permission after generated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lackneets/unix-socket-regen.git"
+  },
+  "keywords": [
+    "unixsocket",
+    "unix",
+    "socket",
+    "express"
+  ],
+  "author": "Lackneets",
+  "license": "MIT"
+}
