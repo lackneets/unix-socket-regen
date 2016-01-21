@@ -1,6 +1,6 @@
 {
   "name": "unix-socket-regen",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Remove existed unix socket file and fix permission after generated",
   "main": "index.js",
   "scripts": {
