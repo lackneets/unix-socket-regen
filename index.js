@@ -7,7 +7,7 @@ module.exports = function(){
   }
   if(Number.isNaN(parseInt(process.env.PORT))){
     var listener = function(event, filename){
-      if(filename == path.basename(process.env.PORT) && event == 'rename'){
+      if(filename == path.basename(process.env.PORT) && event == 'rename' && fs.existsSync(process.env.PORT)){
         fs.chmodSync(process.env.PORT, '0666');
       }    
     }
